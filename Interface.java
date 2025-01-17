@@ -3,19 +3,16 @@
 //     public abstract void config();
 // }
 
-// class having only abstract methods
-// there is need of heirarchy
 
+// class having only abstract methods -> Interface(not a class)
 interface A {
     // int age; // by def final and static
     int age= 40;
     
     void show();
     void config();
+    // by def every method is public abstract
 }
-// interface is not a class
-// by def every method is public abstract
-
 // interface will only tell the methods but will not implements eg directions bt we have to walk on our won
 
 class B implements A{
