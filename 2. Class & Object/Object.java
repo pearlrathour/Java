@@ -10,7 +10,7 @@ public class Object{
     public static void main(String a[]){
         int num1= 1, num2=4;
 
-        Calculator calc1; //just creating a reference
+        Calculator calc1; //just creating a reference -> calc1 is reference variable
         Calculator calc= new Calculator(); // object created
 
         // calc.add();

@@ -25,6 +25,7 @@ public class AnonymousInner {
         obj.show();
 
         // B obj1= new C();
+        //objrct is still not created for abstract class and is created for anonymous inner class
         B obj1= new B(){
             public void show(){
                 System.out.println("new show");

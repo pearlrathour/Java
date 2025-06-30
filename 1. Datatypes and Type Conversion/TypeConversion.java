@@ -18,6 +18,5 @@ class TypeConversion{
 
         long l= 2147483648l;
         int num= (int) l;
-        System.out.println(num);
     }
 }

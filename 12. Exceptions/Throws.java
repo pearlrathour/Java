@@ -1,3 +1,4 @@
+package Exceptions;
 class A{
     public void show() throws ClassNotFoundException{
         Class.forName("XYZ");

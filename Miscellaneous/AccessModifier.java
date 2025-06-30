@@ -1,4 +1,4 @@
-import other.A;
+import Miscellaneous.A;
 
 class C extends A{
     public void abc(){
