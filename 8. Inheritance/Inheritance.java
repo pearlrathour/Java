@@ -9,6 +9,9 @@
 
 //Multiple Inheritance does not work in java
 
+import Miscellaneous.AdvCalc;
+import Miscellaneous.Calc;
+
 public class Inheritance {
     public static void main(String[] args) {
         Calc obj1= new Calc();

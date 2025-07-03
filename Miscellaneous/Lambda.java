@@ -1,3 +1,6 @@
+import A;
+
+package Miscellaneous;
 interface A {
     // void show();
     void show(int i);

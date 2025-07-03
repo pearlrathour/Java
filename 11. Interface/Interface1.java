@@ -1,3 +1,5 @@
+import Miscellaneous.Laptop;
+
 abstract class Computer{
     public abstract void code();
 }

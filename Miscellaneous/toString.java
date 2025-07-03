@@ -1,3 +1,4 @@
+package Miscellaneous;
 class Laptop{
     int price;
     String brand;

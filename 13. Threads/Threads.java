@@ -1,3 +1,5 @@
+import InnerClass.A;
+
 class A extends Thread{
     // public void show(){
     public void run(){

@@ -1,3 +1,4 @@
+package Miscellaneous;
 // final class Calc{
 // to stop inheritance
 class Calc{
