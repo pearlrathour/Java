@@ -1,21 +1,14 @@
-package Exceptions;
 public class Try {
     public static void main(String[] args) {
-        int i=0;
-        int j=0;
-        try{
-            j= 18/i;
-            // Not printing this
-            System.out.println("Bye");
+        try {
+            System.out.println("Step 1");
+            int x = 10 / 0; 
+            System.out.println("Step 2"); // skipped
+        } catch (ArithmeticException e) {
+            System.out.println("Handled error at Step 3");
         }
-        catch(Exception e){
-            System.out.println("Something  went wrong");
-            System.out.println("Bye");
-        }
-        finally{
-            // for closing a resource
-            // exec irrespective of exception
-            System.out.println("Bye");
-        }
+        System.out.println("Step 4");
+
+        // Without try cath output will be --> STep 1
     }
 }

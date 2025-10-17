@@ -18,7 +18,7 @@ class Mobile{
     }
 }
 
-public class Static{
+public class Static1{
     // if not static that means main becomes non static method 
     // i.e.if we want to call main we have to first create object of Demo, we cannot call main w/o object of Demo 
     // but main if statring point so if execution has not started how can we create obj of Demo

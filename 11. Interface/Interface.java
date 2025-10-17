@@ -1,19 +1,20 @@
-// abstract class  A {
-//     public abstract void show();
-//     public abstract void config();
-// }
-
-
-// class having only abstract methods -> Interface(not a class)
 interface A {
-    // int age; // by def final and static
     int age= 40;
-    
+    // by def final and static
+
     void show();
     void config();
     // by def every method is public abstract
+
+    public static void staticMethod(){
+        System.out.println("static method in Interface");
+    }
+
+    default void defaultMethod() {
+        System.out.println("default method in Interface");
+    }
 }
-// interface will only tell the methods but will not implements eg directions bt we have to walk on our won
+// interface will only tell the methods but will not implements eg directions bt we have to walk on our own
 
 class B implements A{
     public void show(){
@@ -32,6 +33,11 @@ public class Interface {
         obj.show();
         obj.config();
         System.out.println(A.age); //as static no nee dof obj
+        // System.out.println(obj.age);
+        // System.out.println(B.age);
+
+        A.staticMethod();
+        obj.defaultMethod();
     }
 }
 

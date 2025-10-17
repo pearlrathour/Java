@@ -1,5 +1,4 @@
-package Exceptions;
-class myException extends Exception{
+class myException extends Exceptions2{
     public myException(String s){
         super(s);
     }
@@ -40,7 +39,7 @@ public class Exceptions {
         //     System.out.println("String error: "+ e);
         // }
 
-        catch(Exception e){
+        catch(Exceptions2 e){
             System.out.println("Something went wrong: "+ e);
         }
 
