@@ -3,7 +3,7 @@
 // Super class
 class A {
     // Its super calls cons of Object class
-    // By edfault class A extends Object
+    // By default class A extends Object
     public A() {
         System.out.println("in A");
     }

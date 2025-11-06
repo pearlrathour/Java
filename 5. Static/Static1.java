@@ -1,6 +1,6 @@
 class Mobile{
     static String brand;  // brand variable common to all object
-    int price; //insatnce variable
+    int price; //instance variable
 
     public void show(){
         System.out.println(brand + " " + ": " + price);

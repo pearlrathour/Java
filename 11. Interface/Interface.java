@@ -32,7 +32,7 @@ public class Interface {
         obj= new B();
         obj.show();
         obj.config();
-        System.out.println(A.age); //as static no nee dof obj
+        System.out.println(A.age); //as static no need of obj
         // System.out.println(obj.age);
         // System.out.println(B.age);
 

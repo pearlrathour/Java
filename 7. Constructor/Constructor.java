@@ -6,15 +6,14 @@ class Human {
     public Human(){
         age= 12;
         name="";
-        // name is "" instead of null now
+        System.out.println("Default Constructor called");
     }
 
     // Parameterised Cons
     public Human(int a, String n){
         age= a;
-        // name= name; // name= null;
         name=n;
-
+        System.out.println("Parameterized Constructor called");
     }
 
 

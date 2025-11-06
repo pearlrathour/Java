@@ -14,7 +14,7 @@ class TypeConversion{
     
         byte b1=10;
         byte b2=20;
-        int res= b1*b2; //300
+        int res= b1*b2; //200
 
         long l= 2147483648l;
         int num= (int) l;

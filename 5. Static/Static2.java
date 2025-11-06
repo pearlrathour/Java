@@ -19,13 +19,14 @@ class Student{
 
 public class Static2 {
     public static void main(String[] args) {
-        // Student s1= new Student();
-        // Student s2= new Student();
- 
-        // System.out.println(s2.count);  //1
-        // System.out.println(Student.staticCount);  //2
-
         Student.getStaticCount();
+
+        Student s1= new Student();
+        Student s2= new Student();
+ 
+        System.out.println(s2.count);  //1
+        System.out.println(s1.staticCount); // 2 
+        System.out.println(Student.staticCount);  //2
 
         System.out.println("Max: " + Utils.max(2,3));
         System.out.println("Min: " + Utils.min(2,3)); 
